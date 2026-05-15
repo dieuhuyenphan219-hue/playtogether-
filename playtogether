@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hành Trình Play Together của Pi</title>
+    <style>
+        :root { --primary: #ffde59; --bg: #f0f8ff; --accent: #ff914d; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); margin: 0; text-align: center; color: #333; }
+        header { background: var(--primary); padding: 50px 20px; border-bottom: 5px solid var(--accent); }
+        .container { max-width: 600px; margin: 20px auto; padding: 0 15px; }
+        .card { background: white; padding: 30px; border-radius: 25px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); margin-bottom: 25px; }
+        h1, h2 { color: var(--accent); margin-top: 0; }
+        .stats { display: flex; justify-content: space-around; background: var(--accent); color: white; padding: 15px; border-radius: 20px; font-weight: bold; }
+        footer { padding: 30px; font-size: 0.9rem; color: #888; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HÀNH TRÌNH PLAY TOGETHER</h1>
+        <p>Khám phá thế giới của <strong>Pi</strong> 🏝️</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>📍 Thông tin cá nhân</h2>
+            <p>Chào mừng bạn đã ghé thăm trang cá nhân của mình tại Đảo Kaia!</p>
+            <div class="stats">
+                <div>🐟 Cá hiếm: 50+</div>
+                <div>🏠 Nhà: Luxury</div>
+            </div>
+        </div>
+    </div>
+    <footer>Thiết kế bởi Pi © 2026</footer>
+</body>
+</html>
